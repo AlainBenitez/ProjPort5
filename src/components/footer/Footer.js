@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './footer.css';
+// import './footer.css';
 
 class Footer extends Component {
   render() {
@@ -13,12 +13,12 @@ class Footer extends Component {
 
 export default Footer;
 
-const styles = {
-  container: {
-    width: '90%',
-    color: 'red'
-  },
-  p: {
-    color: 'blue'
-  }
-}
+// const styles = {
+//   container: {
+//     width: '90%',
+//     color: 'red'
+//   },
+//   p: {
+//     color: 'blue'
+//   }
+// }

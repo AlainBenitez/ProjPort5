@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import './main.css';
+// import './main.css';
 import RenderDogs from './RenderDogs';
 
-const baseDogUrl =  'https://dog.ceo/api/breeds/image/random/10';
-const dogBreedUrl =  'https://dog.ceo/api/breed/';
-const endDogBreedUrl = 'images/random';
-let imgArr = [];
+// const baseDogUrl =  'https://dog.ceo/api/breeds/image/random/10';
+// const dogBreedUrl =  'https://dog.ceo/api/breed/';
+// const endDogBreedUrl = 'images/random';
+// let imgArr = [];
 
 
 class Main extends Component {
@@ -23,7 +23,7 @@ class Main extends Component {
 
   render() {
     return (
-      <div style={styles.container}>
+      <div>
         <RenderDogs />
         
       </div>
@@ -33,18 +33,18 @@ class Main extends Component {
 
 export default Main;
 
-const styles = {
-  container: {
-    width: '90%'
-  },
-  p: {
-    color: 'blue'
-  },
-  button: {
-    width: '100px',
-    height: '25px',
-    margin: '1rem',
-    padding: '3px 6px',
-    borderRadius: '8px'
-  }
-}
+// const styles = {
+//   container: {
+//     width: '90%'
+//   },
+//   p: {
+//     color: 'blue'
+//   },
+//   button: {
+//     width: '100px',
+//     height: '25px',
+//     margin: '1rem',
+//     padding: '3px 6px',
+//     borderRadius: '8px'
+//   }
+// }

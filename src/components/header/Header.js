@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './header.css';
+// import './header.css';
 
 class Header extends Component {
   render() {
@@ -13,12 +13,12 @@ class Header extends Component {
 
 export default Header;
 
-const styles = {
-  container: {
-    width: '90%',
-    color: 'red'
-  },
-  p: {
-    color: 'blue'
-  }
-}
+// const styles = {
+//   container: {
+//     width: '90%',
+//     color: 'red'
+//   },
+//   p: {
+//     color: 'blue'
+//   }
+// }
