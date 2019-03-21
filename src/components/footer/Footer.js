@@ -17,8 +17,5 @@ export default Footer;
 //   container: {
 //     width: '90%',
 //     color: 'red'
-//   },
-//   p: {
-//     color: 'blue'
 //   }
 // }
